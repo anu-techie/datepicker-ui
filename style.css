@@ -22,8 +22,7 @@ body{
     margin: 0;
     background-color: var(--bg-color);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 2rem;
     min-height: 100vh;
 }
 button{
@@ -39,7 +38,6 @@ svg{
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    border: solid 1px var(--fill-color);
     position: relative;
 }
 .input{
